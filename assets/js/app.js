@@ -2,15 +2,27 @@
 let vm = new Vue({
     el: "#app",
     data: {
-        Navbar: 
-        [
+        Navbar: [
             {
-                navLink1: "home",
-                navLink2: "about",
-                navLink3: "services",
-                navLink4: "work",
-                navLink5: "articles",
-            }
+                navLink: "home",
+                link: "",
+            },
+            {
+                navLink: "about",
+                link: "",
+            },            
+            {
+                navLink: "services",
+                link: "",
+            },            
+            {
+                navLink: "work",
+                link: "",
+            },            
+            {
+                navLink: "articles",
+                link: "",
+            },
         ],
         hero: [
             {
