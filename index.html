@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" 
+    integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" 
+    crossorigin="anonymous" />
     <!-- Css -->
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- Google font -->
@@ -27,6 +31,8 @@
                     <div class="right-nav">
                         <div class="right-text" v-for="(link, index) in Navbar">
                             <a href="#">{{link.navLink}}</a>
+                            <div class="link-animation">
+                            </div>
                         </div>
                         <btn class="btn-nav">
                             <a href="#">Get Quote</a>
@@ -37,23 +43,33 @@
             <!-- Hero Img -->
             <div class="hero-img">
                 <div class="little-box">
-                    <img src="" alt="">
-                    <img src="" alt="">
+                    <i class="fas fa-clone fa-2x"></i>
+                    <p>Demos</p>
+                </div>
+                <div class="little-box-f">
+                    <h1>$39</h1>
+                    <p>On Sale</p>
                 </div>
                 <!-- Hero Text w Btn -->
                 <div class="hero-text" v-for="(text, index) in hero">
                     <h1>{{text.bigText}}</h1>
                     <h2>{{text.littleText}}</h2>            
-                    <button class="hero-btn"></button>
-                    <button class="hero-btn"></button>
+                </div>
+                <div class="hero-button">
+                    <button class="hero-btn btn-grey">
+                       <a href="">Explore recent work</a></button>
+                    <button class="hero-btn btn-yellow">
+                       <a href="">Get a quote today</a></button>
                 </div>
             </div>
             <!-- Div from Header to Body -->
             <div class="header-connect" v-for="(text, index) in connect">
                 <h1>{{text.textConnect}}</h1>
-                <div class="little head-connect">
-                    <button class="btn-connect"></button>
-                </div>
+            </div>
+            <div class="little-connect">
+                <button class="btn-connect">
+                    <a href="">Get a free quote</a>
+                </button>
             </div>
         </header>
     </div>
