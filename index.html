@@ -76,8 +76,8 @@
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque iure porro, deleniti nostrum molestias at?
                             Quod unde rem suscipit laboriosam! Ipsam similique assumenda velit earum?</p>
                         </div>
-                        <!-- Specialists with Vue Call for card (v-for)-->
                     </div>
+                    <!-- Specialists with Vue Call for card (v-for)-->
                 <div class="specialist-card-container">
                     <div class="specialist-card" v-for="(specialist,index) in specialists">
                         <i :class="[specialist.icon]"></i>
@@ -96,6 +96,22 @@
                         <p>{{milestone.text}}</p>
                     </div>
                 </div>
+            </section>
+            <!-- Explore -->
+            <section>
+                <div class="explore">
+                    <div class="explore-text">
+                        <h1>Explore Recent Work</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque iure porro, deleniti nostrum molestias at?
+                            Quod unde rem suscipit laboriosam! Ipsam similique assumenda velit earum?</p>
+                        </div>
+                    </div>
+                    <div class="explore-card-container">
+                        <div class="explore-card" v-for="(work,index) in works">
+                            <img :src="work.img" alt="">
+                        </div>
+                    </div>
+                    <h1 class="explore-all">View all project</h1>
             </section>
         </body>
     </div>

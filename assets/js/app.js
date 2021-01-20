@@ -78,6 +78,17 @@ let vm = new Vue({
                 number: "19",
                 text: "international offices",
             },
-        ]
+        ],
+        works: [
+            {
+                img:"assets/img/project1-featured-294276386-400x400.jpg"
+            },
+            {
+                img:"assets/img/project2-featured-15013609-400x400.jpg"
+            },
+            {
+                img:"assets/img/project3-featured-189023420-400x400.jpg"
+            },
+        ] 
     }
 });
