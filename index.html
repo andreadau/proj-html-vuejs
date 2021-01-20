@@ -111,7 +111,26 @@
                             <img :src="work.img" alt="">
                         </div>
                     </div>
-                    <h1 class="explore-all">View all project</h1>
+                    <div class="explore-all">
+                        <a href="#">View all project</a>
+                    </div>
+            </section>
+            <!-- Values -->
+            <section class="bg-gray">
+                <div class="values">
+                    <div class="values-text">
+                        <h1>Our Core Values</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque iure porro, deleniti nostrum molestias at?
+                            Quod unde rem suscipit laboriosam! Ipsam similique assumenda velit earum?</p>
+                        </div>
+                    </div>
+                    <div class="values-card-container">
+                        <div class="values-card" v-for="(value,index) in values">
+                            <i :class="[value.icon]"></i>
+                            <h3>{{value.title}}</h3>
+                            <p>{{value.text}}</p>
+                        </div>
+                    </div>
             </section>
         </body>
     </div>
