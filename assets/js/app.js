@@ -34,6 +34,50 @@ let vm = new Vue({
             {
                 textConnect: "Do You Have a Construction Project We Can Help With ?"
             }
+        ],
+        specialists: [
+            {
+                icon: "",
+                text: "Buildings",
+                subtitle: ""
+            },
+            {
+                icon: "",
+                text: "Renovate",
+                subtitle: ""
+            },
+            {
+                icon: "",
+                text: "Construct",
+                subtitle: ""
+            },
+            {
+                icon: "",
+                text: "Exclusive",
+                subtitle: ""
+            },
+        ],
+        milestone: [
+            {
+                icon: "",
+                number: "3534",
+                text: "planning applications",
+            },
+            {
+                icon: "",
+                number: "896",
+                text: "completed project",
+            },
+            {
+                icon: "",
+                number: "172",
+                text: "trained professionals",
+            },
+            {
+                icon: "",
+                number: "19",
+                text: "international offices",
+            },
         ]
     }
 });

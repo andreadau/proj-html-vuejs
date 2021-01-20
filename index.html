@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- FontAwesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" 
-    integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
     crossorigin="anonymous" />
     <!-- Css -->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -53,7 +53,7 @@
                 <!-- Hero Text w Btn -->
                 <div class="hero-text" v-for="(text, index) in hero">
                     <h1>{{text.bigText}}</h1>
-                    <h2>{{text.littleText}}</h2>            
+                    <h2>{{text.littleText}}</h2>
                 </div>
                 <div class="hero-button">
                     <button class="hero-btn btn-grey">
@@ -65,13 +65,35 @@
             <!-- Div from Header to Body -->
             <div class="header-connect" v-for="(text, index) in connect">
                 <h1>{{text.textConnect}}</h1>
-            </div>
-            <div class="little-connect">
-                <button class="btn-connect">
-                    <a href="">Get a free quote</a>
-                </button>
+                <div class="little-connect">
+                        <a href="" class="btn-connect">Get a free quote</a>
+                </div>
             </div>
         </header>
+        <!-- Body -->
+        <body>
+            <div class="specialists">
+                <div class="specialist-text">
+                    <h1>Specialists In Modern Construction</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque iure porro, deleniti nostrum molestias at?
+                        Quod unde rem suscipit laboriosam! Ipsam similique assumenda velit earum?</p>
+                    </div>
+                </div>
+                <!-- Specialists with Vue Call for card (v-for)-->
+            <div class="specialist-card">
+                <i class="{{VueJSCall}}"></i>
+                <h3>{{VueJSCall}}</h3>
+                <p>{{VueJSCall}}</p>
+            </div>
+            <!-- Milestone with Vue Call for card (v-for)-->
+            <div class="milestone">
+                <div class="milestone-card">
+                    <i class="{{VueJSCall}}"></i>
+                    <h2>{{VueJSCall}}</h2>
+                    <p>{{VueJSCall}}</p>
+                </div>
+            </div>
+        </body>
     </div>
         <!-- Vuejs -->
         <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
