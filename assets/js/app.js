@@ -37,24 +37,24 @@ let vm = new Vue({
         ],
         specialists: [
             {
-                icon: "",
+                icon: "far fa-building",
                 text: "Buildings",
-                subtitle: ""
+                subtitle: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod labore quo, similique corporis."
             },
             {
-                icon: "",
+                icon: "fas fa-sync-alt",
                 text: "Renovate",
-                subtitle: ""
+                subtitle: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod labore quo, similique corporis."
             },
             {
-                icon: "",
+                icon: "fas fa-home",
                 text: "Construct",
-                subtitle: ""
+                subtitle: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod labore quo, similique corporis."
             },
             {
-                icon: "",
+                icon: "fas fa-truck",
                 text: "Exclusive",
-                subtitle: ""
+                subtitle: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod labore quo, similique corporis."
             },
         ],
         milestone: [

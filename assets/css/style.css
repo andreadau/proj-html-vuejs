@@ -4,28 +4,20 @@
     box-sizing: border-box
 }
 /* Utility */
-.btn-grey {
+.grey {
     background-color: #31312f;
-}
-.btn-grey a{
     color: white !important;
 }
-.btn-grey:hover {
+.grey:hover {
     background-color: #fed23f;
-}
-.btn-grey:hover a{
     color: #6b6868 !important;
 }
-.btn-yellow {
+.yellow {
     background-color: #fed23f;
-}
-.btn-yellow a{
     color: #6b6868 !important;
 }
-.btn-yellow:hover {
+.yellow:hover {
     background-color: #31312f;
-}
-.btn-yellow:hover a {
     color: white !important;
 }
 /* /Utility */
@@ -58,8 +50,9 @@ body {
     text-transform: uppercase;
     position: relative;
 }
-.right-text a:hover {
+.right-text:hover a {
     color: #fed23f;
+    pointer-events: visible;
 }
 .link-animation {
     position: absolute;
@@ -117,7 +110,7 @@ nav a {
 .hero-text h2 {
     font-size: 22px;
     font-weight: 200;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     color: #fed23f;
 }
 .hero-btn {
@@ -125,8 +118,6 @@ nav a {
     margin-right: 10px;
     border: none;
     margin-bottom: 15px;
-}
-.hero-btn a {
     text-decoration: none;
     font-size: 17px;
     text-transform: uppercase;
@@ -204,13 +195,13 @@ nav a {
 }
 /* Body */
 .specialists {
-    height: 50vh;
     width: 100%;
     margin-top: 80px;
     color: #6b6868;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 70px;
 }
 .specialist-text{
     width: 50%;
@@ -231,4 +222,40 @@ nav a {
     transform: translateX(50%);
     width: 200px;
     border-bottom: 2px solid #fed23f;
+}
+.specialist-card-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+.specialist-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F5;
+    height: fit-content;
+    width: 280px;
+    margin-right: 30px;
+    border-radius: 10px;
+    color: #6b6868;
+}
+.specialist-card i {
+    padding: 15px;
+    border: 1px solid #6b6868;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+.specialist-card h3 {
+    font-size: 25px;
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+.specialist-card p {
+    font-size: 13px;
+    padding: 5px;
+    line-height: 2em;
+    margin-bottom: 10px;
 }

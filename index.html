@@ -56,10 +56,8 @@
                     <h2>{{text.littleText}}</h2>
                 </div>
                 <div class="hero-button">
-                    <button class="hero-btn btn-grey">
-                       <a href="">Explore recent work</a></button>
-                    <button class="hero-btn btn-yellow">
-                       <a href="">Get a quote today</a></button>
+                       <a class="hero-btn grey" href="">Explore recent work</a></button>
+                       <a button class="hero-btn yellow" href="">Get a quote today</a></button>
                 </div>
             </div>
             <!-- Div from Header to Body -->
@@ -78,12 +76,14 @@
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque iure porro, deleniti nostrum molestias at?
                         Quod unde rem suscipit laboriosam! Ipsam similique assumenda velit earum?</p>
                     </div>
+                    <!-- Specialists with Vue Call for card (v-for)-->
                 </div>
-                <!-- Specialists with Vue Call for card (v-for)-->
-            <div class="specialist-card">
-                <i class="{{VueJSCall}}"></i>
-                <h3>{{VueJSCall}}</h3>
-                <p>{{VueJSCall}}</p>
+            <div class="specialist-card-container">
+                <div class="specialist-card" v-for="(specialist,index) in specialists">
+                    <i :class="[specialist.icon]"></i>
+                    <h3>{{specialist.text}}</h3>
+                    <p>{{specialist.subtitle}}</p>
+                </div>
             </div>
             <!-- Milestone with Vue Call for card (v-for)-->
             <div class="milestone">
