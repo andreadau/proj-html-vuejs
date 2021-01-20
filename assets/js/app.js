@@ -57,24 +57,24 @@ let vm = new Vue({
                 subtitle: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod labore quo, similique corporis."
             },
         ],
-        milestone: [
+        milestones: [
             {
-                icon: "",
+                icon: "fas fa-suitcase fa-4x",
                 number: "3534",
                 text: "planning applications",
             },
             {
-                icon: "",
+                icon: "far fa-building fa-4x",
                 number: "896",
                 text: "completed project",
             },
             {
-                icon: "",
+                icon: "fas fa-users fa-4x",
                 number: "172",
                 text: "trained professionals",
             },
             {
-                icon: "",
+                icon: "fas fa-globe fa-4x",
                 number: "19",
                 text: "international offices",
             },

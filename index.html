@@ -34,9 +34,7 @@
                             <div class="link-animation">
                             </div>
                         </div>
-                        <btn class="btn-nav">
-                            <a href="#">Get Quote</a>
-                        </btn>
+                        <a class="btn-nav" href="#">Get Quote</a>
                     </div>
                 </div>
             </nav>
@@ -70,29 +68,35 @@
         </header>
         <!-- Body -->
         <body>
-            <div class="specialists">
-                <div class="specialist-text">
-                    <h1>Specialists In Modern Construction</h1>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque iure porro, deleniti nostrum molestias at?
-                        Quod unde rem suscipit laboriosam! Ipsam similique assumenda velit earum?</p>
+            <!-- Specialists Section -->
+            <section>
+                <div class="specialists">
+                    <div class="specialist-text">
+                        <h1>Specialists In Modern Construction</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque iure porro, deleniti nostrum molestias at?
+                            Quod unde rem suscipit laboriosam! Ipsam similique assumenda velit earum?</p>
+                        </div>
+                        <!-- Specialists with Vue Call for card (v-for)-->
                     </div>
-                    <!-- Specialists with Vue Call for card (v-for)-->
+                <div class="specialist-card-container">
+                    <div class="specialist-card" v-for="(specialist,index) in specialists">
+                        <i :class="[specialist.icon]"></i>
+                        <h3>{{specialist.text}}</h3>
+                        <p>{{specialist.subtitle}}</p>
+                    </div>
                 </div>
-            <div class="specialist-card-container">
-                <div class="specialist-card" v-for="(specialist,index) in specialists">
-                    <i :class="[specialist.icon]"></i>
-                    <h3>{{specialist.text}}</h3>
-                    <p>{{specialist.subtitle}}</p>
+            </section>
+            <!-- Milestone Section -->
+            <section>
+                <!-- Milestone with Vue Call for card (v-for)-->
+                <div class="milestone">
+                    <div class="milestone-card" v-for="(milestone,index) in milestones">
+                        <i :class="[milestone.icon]"></i>
+                        <h2>{{milestone.number}}</h2>
+                        <p>{{milestone.text}}</p>
+                    </div>
                 </div>
-            </div>
-            <!-- Milestone with Vue Call for card (v-for)-->
-            <div class="milestone">
-                <div class="milestone-card">
-                    <i class="{{VueJSCall}}"></i>
-                    <h2>{{VueJSCall}}</h2>
-                    <p>{{VueJSCall}}</p>
-                </div>
-            </div>
+            </section>
         </body>
     </div>
         <!-- Vuejs -->
