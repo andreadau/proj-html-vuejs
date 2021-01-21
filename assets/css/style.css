@@ -470,3 +470,97 @@ nav a {
     text-align: center;
     text-transform: capitalize;
 }
+/* Experience */
+.experience::before {
+    content: "";
+    position: absolute;
+    height: 200px;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    top: -100px;
+    background: #f5f5f5;
+    width: 100%;  
+}
+.experience {
+    background-image: url("../img/home-parallax-144609983.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 650px;
+    margin-bottom: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.experience:after {
+    content: "";
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    bottom: -100px;
+    background: #fff;  
+}
+.experience-text{
+    width: 40%;
+    line-height: 2em;
+    text-align: center;
+    margin-top: 100px;
+}
+.experience h1 {
+    font-size: 27px;
+    font-weight: 100;
+    margin-bottom: 30px;
+    position: relative;
+    padding-bottom: 20px;
+}
+.experience h1:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    transform: translateX(50%);
+    width: 200px;
+    border-bottom: 2px solid #fed23f;
+}
+.experience-card-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.experience-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: 50%;
+    margin-right: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+.experience-card img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+    width: 120px;
+}
+.experience-card p > i {
+    line-height: 1.5em;
+    font-size: 17px;
+}
+.experience-card h2 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.experience-icon {
+    margin-top: 10px;
+}

@@ -111,6 +111,13 @@ let vm = new Vue({
                 title: "Creative Solutions",
                 text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda vel dolore nemo officiis magnam ipsam.",
             },
+        ],
+        experiences: [
+            {
+                img:"assets/img/home-testimonial-113165296.jpg",
+                text:"No man but feels more of a man in the world if we have but a bit of ground that he call his own. However small it is on the surface. It is four thousand miles deep: and this is a very handsome property",
+                name: "Harry smith - new home owner",
+            }
         ]
     }
 });

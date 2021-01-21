@@ -132,6 +132,25 @@
                         </div>
                     </div>
             </section>
+            <!-- Experience -->       
+            <section>
+                <div class="experience">
+                    <div class="experience-text">
+                        <h1>Our Home Owner Say</h1>
+                    </div>
+                    <div class="experience-card-container">
+                        <div class="experience-card" v-for="(experience,index) in experiences">
+                            <img :src="experience.img" alt="">
+                            <p><i>"{{experience.text}}"</i></p>
+                            <h2>{{experience.name}}</h2>
+                            <div class="experience-icon">
+                                <i class="fas fa-circle"></i> 
+                                <i class="far fa-circle"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </body>
     </div>
         <!-- Vuejs -->
