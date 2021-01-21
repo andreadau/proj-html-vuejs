@@ -148,7 +148,31 @@
                                 <i class="far fa-circle"></i>
                             </div>
                         </div>
+                    </div>  
+                </div>
+            </section>
+            <!-- News -->
+            <section class="bg-gray">
+                <div class="news">
+                    <div class="news-text">
+                        <h1>Latest News</h1>
+                        <p>Lorem ipsum dolor, sit   amet consectetur adipisicing elit. 
+                            Aliquid consequuntur in suscipit tempore veniam numquam?
+                        </p>
                     </div>
+                </div>
+                <div class="news-card-container">
+                    <div class="news-card" v-for="(article,index) in news">
+                        <img :src="article.img" alt="">
+                        <div class="news-summary">
+                            <h1>{{article.title}}</h1>
+                            <p>{{article.date}}</p>
+                            <p>{{article.text}}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="news-all">
+                    <a href="#">View all articles</a>
                 </div>
             </section>
         </body>

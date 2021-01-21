@@ -118,6 +118,26 @@ let vm = new Vue({
                 text:"No man but feels more of a man in the world if we have but a bit of ground that he call his own. However small it is on the surface. It is four thousand miles deep: and this is a very handsome property",
                 name: "Harry smith - new home owner",
             }
+        ],
+        news: [
+            {
+                title:"Redeveloping Florida's Remote Southern Coast",
+                date:"January 21st, 2021",
+                img:"assets/img/blog-post-134132600-400x241.jpg",            
+                text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, reprehenderit quia placeat doloremque quos minima deleniti est, fugiat esse dolorum distinctio incidunt recusandae commodi nobis ullam eius expedita? Sed corrupti ipsam aliquam quos nihil laboriosam!",
+            },
+            {                
+                title:"How We Manage Large Construction Projects",
+                date:"January 21st, 2021",
+                img:"assets/img/blog-post-92486644-400x241.jpg",            
+                text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, reprehenderit quia placeat doloremque quos minima deleniti est, fugiat esse dolorum distinctio incidunt recusandae commodi nobis ullam eius expedita? Sed corrupti ipsam aliquam quos nihil laboriosam!",
+            },
+            {
+                title:"Future proofing a modern home",
+                date:"January 21st, 2021",
+                img:"assets/img/blog-post-332773904-400x241.jpg",            
+                text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, reprehenderit quia placeat doloremque quos minima deleniti est, fugiat esse dolorum distinctio incidunt recusandae commodi nobis ullam eius expedita? Sed corrupti ipsam aliquam quos nihil laboriosam!",
+            },
         ]
     }
 });
