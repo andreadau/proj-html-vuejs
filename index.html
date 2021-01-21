@@ -175,6 +175,23 @@
                     <a href="#">View all articles</a>
                 </div>
             </section>
+            <!-- Partners -->
+            <section>
+                <div class="partners">
+                    <div class="partners-text">
+                        <h1>Trusted Partners</h1>
+                        <p>Lorem ipsum dolor, sit   amet consectetur adipisicing elit. 
+                            Aliquid consequuntur in suscipit tempore veniam numquam?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, animi!
+                        </p>
+                    </div>
+                    <div class="partners-card-container">
+                        <div class="partners-logo" v-for="(partner,index) in partners">
+                            <img :src="[partner.img]" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
         </body>
     </div>
         <!-- Vuejs -->

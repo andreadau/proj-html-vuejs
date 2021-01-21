@@ -161,13 +161,15 @@ nav a {
     right: 0;
     top: 75px;
 }
-.little-box, .little-box-f p,i,h1{
+.little-box, .little-box-f p,.little-box-f i,.little-box-f h1{
     text-align: center;
 }
 .little-box-f h1 {
     color: yellowgreen;
 }
-
+.little-box i {
+    color: black;
+}
 /* Header Body Connection */
 .header-connect {
     height: 120px;
@@ -232,7 +234,7 @@ nav a {
     bottom: 0;
     right: 50%;
     transform: translateX(50%);
-    width: 200px;
+    width: 150px;
     border-bottom: 2px solid #fed23f;
 }
 .specialist-card-container {
@@ -314,11 +316,12 @@ nav a {
     margin: 50px;
     text-align: center;
 }
-.milestone-card i,h2 {
+.milestone-card i {
     color: #fed23f;
     margin: 10px 5px 0 0;
 }
 .milestone-card h2 {
+    color: #fed23f;
     font-size: 50px;
     font-weight: 200;
 }
@@ -355,7 +358,7 @@ nav a {
     bottom: 0;
     right: 50%;
     transform: translateX(50%);
-    width: 200px;
+    width: 150px;
     border-bottom: 2px solid #fed23f;
 }
 .explore-card-container {
@@ -432,7 +435,7 @@ nav a {
     bottom: 0;
     right: 50%;
     transform: translateX(50%);
-    width: 200px;
+    width: 150px;
     border-bottom: 2px solid #fed23f;
 }
 .values-card-container {
@@ -478,6 +481,12 @@ nav a {
     transform: translateX(50%);
     width: 25px;
     border-bottom: 2px solid #6b6868;
+}
+.values-card:hover h3 {
+    color: #fed23f;
+}
+.values-card:hover i {
+    background-color: #fed23f;
 }
 .values-card p {
     font-size: 13px;
@@ -544,7 +553,7 @@ nav a {
     bottom: 0;
     right: 50%;
     transform: translateX(50%);
-    width: 200px;
+    width: 150px;
     border-bottom: 2px solid #fed23f;
 }
 .experience-card-container {
@@ -572,6 +581,7 @@ nav a {
 .experience-card p > i {
     line-height: 1.5em;
     font-size: 17px;
+    color: white;
 }
 .experience-card h2 {
     color: white;
@@ -581,6 +591,10 @@ nav a {
 }
 .experience-icon {
     margin-top: 10px;
+}
+.experience-icon i{
+    margin-top: 10px;
+    color: white;
 }
 /* News */
 .news {
@@ -611,7 +625,7 @@ nav a {
     bottom: 0;
     right: 50%;
     transform: translateX(50%);
-    width: 200px;
+    width: 150px;
     border-bottom: 2px solid #fed23f;
 }
 .news-card-container {
@@ -681,4 +695,47 @@ nav a {
 .news-all a {
     text-decoration: none;
     color: #6b6868;
+}
+/* Partners */
+.partners {
+    width: 100%;
+    margin-top: 10px;
+    color: #6b6868;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.partners-text{
+    width: 50%;
+    line-height: 2em;
+    text-align: center;
+    margin-top: 100px;
+}
+.partners h1 {
+    font-size: 27px;
+    font-weight: 100;
+    margin-bottom: 30px;
+    position: relative;
+    padding-bottom: 20px;
+}
+.partners h1:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    transform: translateX(50%);
+    width: 150px;
+    border-bottom: 2px solid #fed23f;
+}
+.partners-card-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.partners-logo img{
+    width: 200px;
+    margin: 30px;
+    padding-top: 20px;
 }

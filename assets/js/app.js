@@ -81,10 +81,10 @@ let vm = new Vue({
         ],
         works: [
             {
-                img:"assets/img/project1-featured-294276386-400x400.jpg"
+                img:"assets/img/project2-featured-15013609-400x400.jpg"
             },
             {
-                img:"assets/img/project2-featured-15013609-400x400.jpg"
+                img:"assets/img/project1-featured-294276386-400x400.jpg"
             },
             {
                 img:"assets/img/project3-featured-189023420-400x400.jpg"
@@ -137,6 +137,23 @@ let vm = new Vue({
                 date:"January 21st, 2021",
                 img:"assets/img/blog-post-332773904-400x241.jpg",            
                 text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, reprehenderit quia placeat doloremque quos minima deleniti est, fugiat esse dolorum distinctio incidunt recusandae commodi nobis ullam eius expedita? Sed corrupti ipsam aliquam quos nihil laboriosam!",
+            },
+        ],
+        partners: [
+            {
+                img: "assets/img/home-logo11-219096700-320x202.png",
+            },
+            {
+                img: "assets/img/home-logo10-219096700-320x202.png",
+            },
+            {
+                img: "assets/img/home-logo2-219096700-320x202.png",
+            },
+            {
+                img: "assets/img/home-logo1-219096700-320x202.png",
+            },
+            {
+                img: "assets/img/home-logo9-219096700-320x202.png",
             },
         ]
     }
