@@ -250,25 +250,25 @@ nav a {
     align-items: center;
     background-color: #F5F5F5;
     height: fit-content;
-    width: 280px;
+    width: 380px;
     margin-right: 30px;
     border-radius: 10px;
     color: #6b6868;
 }
 .specialist-card i {
-    padding: 15px;
+    padding: 20px;
     border: 1px solid #6b6868;
     border-radius: 50%;
     margin-bottom: 10px;
     margin-top: 15px;
 }
 .specialist-card h3 {
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 100;
     margin-bottom: 5px;
 }
 .specialist-card p {
-    font-size: 13px;
+    font-size: 17px;
     padding: 5px;
     line-height: 2em;
     margin-bottom: 10px;
@@ -789,4 +789,126 @@ nav a {
     padding: 15px 50px;
 }
 /* /Body */
+.bg-l-gray {
+    background-color: #3F3F3F;
+    height: 10px;
+}
 /* Footer */
+footer {
+    background-color: #1e1e1e;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 90px;
+    color: white;
+}
+.footer-container h1 {
+    text-transform: uppercase;
+    color: #fed23f;
+    font-size: 1.2em;
+    position: absolute;
+    padding-bottom: 30px;
+    top: 0;
+    left: 0;
+    margin-top: -30px;
+}
+.learn-more , .last-tweet, .contact-us, .find-us {
+    margin: 10px;
+    position: relative;
+}
+.learn-more{
+    flex: 1.5;
+    line-height: 2em;
+}
+.learn-more p {
+    font-weight: 200;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+.learn-more a {
+    padding: 15px 40px;
+    text-decoration: none;
+}
+/* Last Tweet */
+.last-tweet{
+    flex: 2;
+    display: flex;
+}
+.last-tweet img {
+    margin-right: 5px;
+    margin-top: 40px;
+}
+.logo-tweet img {
+    border-radius: 50px;
+}
+.tweet {
+    margin-top: 40px;
+    line-height: 1.5em;
+}
+.last-tweet h4 {
+    font-size: 13px;
+    color: gray;
+}
+.logo-tweet {
+    margin-top: 20p;
+}
+.tweet-icon {
+    position: relative;
+    width: 400px;
+}
+.tweet-icon i {
+    color: gray;
+    position: absolute;
+    bottom: 5;
+    left: 0;
+}
+.tweet-icon p {
+    color: gray;
+    position: absolute;
+    bottom: 5;
+    right: 0;
+}
+/* Contact Us */
+.contact-us{
+    flex: 1.5;
+}
+.contact-us-card {
+    padding-top: 30px;
+}
+.contact-us-container{
+    display: flex;
+    width: 70%;
+    color: gray;
+}
+.contact-us-container i{
+    margin-right: 20px;
+    margin: 10px 10px 10px 0;
+    color: gray
+}
+.contact-us-container p{
+    margin: 10px 0;
+}
+/* Find US */
+.find-us img{
+    margin-top: 20px;
+}
+/* END */
+.end {
+    height: 80px;
+    background-color: #111111;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.end h1 {
+    font-size: 15px;
+    margin-left: 10px;
+    color: gray;
+    font-weight: 100;
+}
+.end-icon i{
+    margin: 0 10px;
+    color: gray;
+}

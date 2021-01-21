@@ -132,7 +132,7 @@
                         </div>
                     </div>
             </section>
-            <!-- Experience -->       
+            <!-- Experience -->
             <section>
                 <div class="experience">
                     <div class="experience-text">
@@ -144,11 +144,11 @@
                             <p><i>"{{experience.text}}"</i></p>
                             <h2>{{experience.name}}</h2>
                             <div class="experience-icon">
-                                <i class="fas fa-circle"></i> 
+                                <i class="fas fa-circle"></i>
                                 <i class="far fa-circle"></i>
                             </div>
                         </div>
-                    </div>  
+                    </div>
                 </div>
             </section>
             <!-- News -->
@@ -156,7 +156,7 @@
                 <div class="news">
                     <div class="news-text">
                         <h1>Latest News</h1>
-                        <p>Lorem ipsum dolor, sit   amet consectetur adipisicing elit. 
+                        <p>Lorem ipsum dolor, sit   amet consectetur adipisicing elit.
                             Aliquid consequuntur in suscipit tempore veniam numquam?
                         </p>
                     </div>
@@ -180,7 +180,7 @@
                 <div class="partners">
                     <div class="partners-text">
                         <h1>Trusted Partners</h1>
-                        <p>Lorem ipsum dolor, sit   amet consectetur adipisicing elit. 
+                        <p>Lorem ipsum dolor, sit   amet consectetur adipisicing elit.
                             Aliquid consequuntur in suscipit tempore veniam numquam?
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, animi!
                         </p>
@@ -204,6 +204,61 @@
                 </div>
             </div>
         </body>
+        <!-- /Body -->
+        <div class="bg-l-gray"></div>
+        <!-- Footer -->
+        <footer>
+            <div class="footer-container">
+                <div class="learn-more">
+                    <img src="assets/img/footer-logo.png" alt="" >
+                    <p>We are specialists in the construction of unique and exclusive properties. Our work inspires. We pride ourselves on delivering outstanding quality and design for leading clients across the world</p>
+                    <a href="" class="yellow btn-footer">LEARN MORE</a>
+                </div>
+                <div class="last-tweet">
+                    <h1>Latest tweet</h1>
+                    <div class="logo-tweet">
+                        <img src="assets/img/3a74ce3d0532b7773b174c45ca3bd05a_normal.png" alt="">
+                    </div>
+                    <div class="tweet">
+                        <div class="tweet-title">
+                            <h3>ThemeFusion</h3>
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                        <h4>@Theme_Fusion</h4>
+                        <p>Do you need sublime WordPress hosting for your next website? Take advantage of exclusive partner offers that we have secured just for you, & launch ytour site in seconds with #avada on WP Engine hosting & get 30% Off this Black Friday(lol) <a href="">bit.ly/numeriacaso833823918</a></p>
+                        <div class="tweet-icon">
+                            <img src="assets/img/author_thumbnail-400x300.jpg" alt="">
+                            <i class="fas fa-heart"></i>
+                            <p>22h</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-us">
+                    <h1>Contact us today</h1>
+                    <div class="contact-us-card">
+                        <div class="contact-us-container" v-for="(contact,index) in contacts">
+                            <div>
+                                <i :class="[contact.icon]"></i>
+                            </div>
+                            <p>{{contact.text}}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="find-us">
+                    <h1>Find us</h1>
+                    <img src="assets/img/construction-map.PNG" alt="">
+                </div>
+            </div>
+            <div class="end">
+                <h1>COPYRIGHT 2012 - 2015 AVADA THEME BY THEME FUSION | ALL RIGHTS RESERVER | POWERED BY WORKPRESS | COPY MADE BY ANDREA D'AURIA</h1>
+                <div class="end-icon">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+        </footer>
     </div>
         <!-- Vuejs -->
         <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>

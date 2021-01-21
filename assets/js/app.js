@@ -155,6 +155,32 @@ let vm = new Vue({
             {
                 img: "assets/img/home-logo9-219096700-320x202.png",
             },
+        ],
+        contacts:[
+            {
+                icon:"fas fa-globe",
+                text:"Corporate Location 1600, Amphitheatre Parkway, London WC1 1BA"
+            },
+            {
+                icon:"fas fa-home",
+                text:"Residential Location, 9521 Broadsberry Avenue, Paddington RC7 9ZA"
+            },
+            {
+                icon:"fas fa-phone",
+                text:"1.800.458.556 / 1.800.532.2112"
+            },
+            {
+                icon:"fas fa-envelope",
+                text:"info@your-domain.com"
+            },
+            {
+                icon:"far fa-clock",
+                text:"Monday - Friday: 9:00 AM - 6.00 PM"
+            },
+            {
+                icon:"far fa-clock",
+                text:"Saturday - Sunday: 9:00 AM - 12.00 PM"
+            },
         ]
     }
 });
