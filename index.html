@@ -79,10 +79,19 @@
                     </div>
                     <!-- Specialists with Vue Call for card (v-for)-->
                 <div class="specialist-card-container">
-                    <div class="specialist-card" v-for="(specialist,index) in specialists">
-                        <i :class="[specialist.icon]"></i>
-                        <h3>{{specialist.text}}</h3>
-                        <p>{{specialist.subtitle}}</p>
+                    <div class="specialist-card" v-for="(specialist,index) in specialists"
+                     @mouseover="upHere = index" @mouseleave="upHere = null">
+                        <div class="card-hover" v-if="upHere != index">
+                                <i :class="[specialist.icon]"></i>
+                                <h3>{{specialist.text}}</h3>
+                                <p>{{specialist.subtitle}}</p>
+                        </div>
+                            <div v-if="upHere === index" class="card-onhover">
+                                <h1>{{specialist.text}}</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Soluta expedita velit sint. Alias, possimus dignissimos.</p>
+                                <a href="" class="btn-hover">GET A QUOTE</a>
+                            </div>
                     </div>
                 </div>
             </section>

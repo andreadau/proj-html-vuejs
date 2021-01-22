@@ -181,6 +181,7 @@ let vm = new Vue({
                 icon:"far fa-clock",
                 text:"Saturday - Sunday: 9:00 AM - 12.00 PM"
             },
-        ]
+        ],
+        upHere: null,
     }
 });

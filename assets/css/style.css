@@ -11,6 +11,7 @@
 .grey:hover {
     background-color: #fed23f;
     color: #6b6868 !important;
+    transition: 0.4s;
 }
 .yellow {
     background-color: #fed23f;
@@ -19,6 +20,7 @@
 .yellow:hover {
     background-color: #31312f;
     color: white !important;
+    transition: 0.4s;
 }
 .bg-gray {
     background-color: #f5f5f5;
@@ -88,10 +90,12 @@ body {
     padding: 10px 28px;
     background-color: #fed23f;
     margin-left: 25px;
+    transition: 0.4s;
 }
 .btn-nav:hover{
     background-color: #1e1e1e;
     color: white;
+    transition: 0,4s;   
 }
 nav a {
     text-decoration: none;
@@ -204,6 +208,7 @@ nav a {
     background-color: white;
     border: 1px solid black;
     color: black;
+    transition: 0.4s;
 }
 /* Body */
 /* Speacialists */
@@ -255,12 +260,41 @@ nav a {
     border-radius: 10px;
     color: #6b6868;
 }
-.specialist-card i {
+.card-hover i {
     padding: 20px;
     border: 1px solid #6b6868;
     border-radius: 50%;
     margin-bottom: 10px;
     margin-top: 15px;
+}
+.card-hover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-onhover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9d03f;
+    border-radius: 10px;
+}
+.card-onhover h1 {
+    padding-top: 22px;
+}
+.card-onhover p {
+    line-height: 2em;
+}
+.card-onhover a {
+    padding: 10px;
+    text-decoration: none;
+    color: #3F3F3F;
+}
+.btn-hover {
+    border: 1px solid white;
+    margin-bottom: 30px;
 }
 .specialist-card h3 {
     font-size: 30px;
